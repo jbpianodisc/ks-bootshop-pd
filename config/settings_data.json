@@ -102,5 +102,10 @@
     "content_for_index": [
 
     ]
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "h2 {font-size-adjust: 0.6;}"
+    ]
   }
 }
