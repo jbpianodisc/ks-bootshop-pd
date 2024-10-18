@@ -98,13 +98,13 @@
         "products": [
 
         ],
-        "collection": "latest",
+        "collection": "featured-products",
         "limit": 8,
         "recommended_mode": true,
         "recommended_mode_intent": "related",
         "header_title": "Our Picks for You",
-        "header_title_font_size": "h2",
-        "header_description": "<p>Enjoy these Thanksgiving classics, hand-selected by PianoDisc</p>",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Enjoy this month's hand-selected music from the PianoDisc team.</p>",
         "header_description_font_size": "fs-lg",
         "slider_speed": 300,
         "slider_navigation": true,
