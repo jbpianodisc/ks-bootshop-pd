@@ -31,10 +31,10 @@
         {{ 'general.accessibility.skip_product_content' | t }}
       </a>      
       <div class="row">
-        <div class="col-desktop-7 mb-5 mb-desktop-0">
+        <div class="col-desktop-6 mb-5 mb-desktop-0">
           {% render 'product-block-media-gallery' %}
         </div>
-        <div class="col-desktop-9">
+        <div class="col-desktop-12">
           <div id="product-inner-{{ product.id }}">
             <product-form>
               {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
