@@ -34,7 +34,7 @@
         <div class="col-desktop-7 mb-5 mb-desktop-0">
           {% render 'product-block-media-gallery' %}
         </div>
-        <div class="col-desktop-7">
+        <div class="col-desktop-6">
           <div id="product-inner-{{ product.id }}">
             <product-form>
               {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
@@ -56,7 +56,7 @@
               {% endform %}
             </product-form>
           </div>
-           <div class="col-md-4">
+           <div class="col-md-3">
      {% liquid render 'product-description' %}
       </div>
         </div>
