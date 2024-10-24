@@ -193,7 +193,7 @@
         "productdescription_XnHeL4": {
           "type": "productdescription",
           "settings": {
-            "title": "Description Title",
+            "title": "",
             "title_font_size": "h6",
             "description": "<p>Richtext description goes here</p>",
             "description_font_size": "fs-md",
