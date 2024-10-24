@@ -82,11 +82,11 @@
         "ea44a44f-429a-4dd2-b40c-f1bf6304c554": {
           "type": "atc_button",
           "settings": {
-            "show_qty_field": true,
+            "show_qty_field": false,
             "show_dynamic_buttons": false,
             "atc_btn_color": "btn-primary",
             "atc_btn_size": "",
-            "show_buy_btn": true,
+            "show_buy_btn": false,
             "buy_btn_color": "btn-outline-secondary",
             "buy_btn_size": "",
             "pt": 0,
@@ -219,6 +219,10 @@
         "separator_cWJNG3",
         "liquid_iDU3Rg",
         "productdescription_XnHeL4"
+      ],
+      "custom_css": [
+        ".productsection2 h2 {font-size: 15px;}",
+        ".productsection2 {font-size: 13px; color: rgba(var(--bs-primary-rgb), 1);}"
       ],
       "settings": {
         "bg_color": "bg-white",
