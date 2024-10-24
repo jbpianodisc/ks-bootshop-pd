@@ -14,7 +14,7 @@
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
    .dualsync-container {
-        background-color: #f0f0f0; /* Light gray background similar to the image */
+    
         width: 100%; /* Adjust as needed */
     
   border-style: solid;
@@ -43,9 +43,11 @@
         margin-bottom: 20px;
       text-align: left;
     }
-
+.dualsync-button {
+  width: 100%;
+}
     .dualsync-button a {
-        background-color: #007bff; /* Blue button background */
+        background-color: #343499; /* Blue button background */
         color: white;
         padding: 10px 20px;
         border-radius: 5px;
