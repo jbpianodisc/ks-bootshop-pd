@@ -13,6 +13,44 @@
   --bs-link-hover-color-rgb: currentColor;
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
+   .dualsync-container {
+        background-color: #f0f0f0; /* Light gray background similar to the image */
+        width: 100%; /* Adjust as needed */
+        max-width: 600px; /* Adjust width to fit your Shopify page */
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .dualsync-logo {
+        margin-bottom: 15px; /* Space between logo and text */
+    }
+
+    .dualsync-logo img {
+        width: 150px; /* Adjust the logo size */
+    }
+
+    .dualsync-text p {
+        font-size: 16px;
+        color: #333; /* Darker text color for readability */
+        margin-bottom: 20px;
+    }
+
+    .dualsync-button a {
+        background-color: #007bff; /* Blue button background */
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .dualsync-button a:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
+
 @media (max-width: 599px) {
  .productsection1 {
    width: 100%;
