@@ -25,10 +25,14 @@
 
     .dualsync-logo {
         margin-bottom: 15px; /* Space between logo and text */
+      text-align: left;
+      margin-top: 0px;
+      padding: 0px;
     }
 
     .dualsync-logo img {
         width: 150px; /* Adjust the logo size */
+      
     }
 
     .dualsync-text p {
