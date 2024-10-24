@@ -31,19 +31,27 @@
         {{ 'general.accessibility.skip_product_content' | t }}
       </a>      
       <div class="row">
-        <div class="col-desktop-7 mb-5 mb-desktop-0">
+        <div class="col-desktop-9 mb-5 mb-desktop-0">
           {% render 'product-block-media-gallery' %}
         </div>
-        <div class="col-desktop-6">
+        <div class="col-desktop-9">
           <div id="product-inner-{{ product.id }}">
             <product-form>
               {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
                 <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-                {% liquid
+                 {% liquid
                   for block in section.blocks
                     case block.type
                       when 'title'
                         render 'product-block-title', block: block
+                     endcase
+                  endfor
+                %}
+                <div class="col-desktop-6">
+                  
+ {% liquid
+                  for block in section.blocks
+                    case block.type
                       when 'price'
                         render 'product-block-price', block: block, form: form
                       when 'options'
@@ -67,11 +75,12 @@
                     endcase
                   endfor
                 %}
-              {% endform %}
-            </product-form>
-          </div>
-        </div>
-           <div class="col-desktop-5">
+             
+
+                
+                </div>
+
+                     <div class="col-desktop-4">
        {% liquid
                   for block in section.blocks
              case block.type
@@ -80,7 +89,14 @@
                 endcase
                endfor
                 %}
-      </div>
+
+                  
+                </div>
+                 {% endform %}
+            
+            </product-form>
+          </div>
+        </div>
       </div>
     </div>
   </div>
