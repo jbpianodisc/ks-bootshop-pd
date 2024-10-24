@@ -1,7 +1,76 @@
 {% liquid
   assign variants_json = product.variants | json
 %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const audioLinks = document.querySelectorAll('a[href$=".mp3"]');
 
+    audioLinks.forEach(function(link) {
+        // Prevent the default link action
+        link.addEventListener('click', function(event) {
+            event.preventDefault();
+        });
+
+        // Create the audio player
+        const audioPlayer = document.createElement('audio');
+        audioPlayer.controls = true; // Show play/pause controls
+        audioPlayer.autoplay = false; // Autoplay the audio
+      audioPlayer.className = 'dynamic-audio-player'; // Assign the class for styling
+
+        audioPlayer.setAttribute('name', 'media'); // Set the name attribute
+
+        // Create the source element
+        const source = document.createElement('source');
+        source.src = link.href; // Set the source URL
+        source.type = 'audio/mpeg'; // Set the source type
+
+        // Append the source to the audio player
+        audioPlayer.appendChild(source);
+
+        // Insert the audio player directly after the link
+        link.insertAdjacentElement('afterend', audioPlayer);
+
+        // Update the link
+        link.textContent = 'Audio Sample:'; // Update link text
+        link.style.fontStyle = 'italic'; // Italicize the text
+        link.style.pointerEvents = 'none'; // Make the link non-clickable
+        link.style.color = 'inherit'; // Optional: match the link color to surrounding text
+    });
+});
+
+  </script>
+<style>/* Styles for the audio player */
+.dynamic-audio-player {
+    display: block;
+    width: 100%; /* Adjust based on your layout */
+    margin: 10px 0; /* Add some space above and below the player */
+  
+}
+
+/* Style for the "Audio Preview" link, if you decide to keep it visible */
+/* Style for the modified "Audio Sample:" text */
+a[href$=".mp3"] {
+    font-style: italic; /* Ensure the text is italic */
+    text-decoration: none; /* Remove underline to make it appear not clickable */
+    cursor: default; /* Change cursor to default to indicate it's not clickable */
+    margin-bottom: 5px; /* Space between the text and the audio player */
+}
+audio::-webkit-media-controls-panel {
+  background-color: #1E7CDC;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Optional: adds a subtle shadow */
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #ffffff ;
+  border-radius: 50%;
+  color: red; 
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: rgba(177,212,224, .7);
+}
+  
+</style>
 <section 
   id="product-main{{ product.id }}" 
   class="
