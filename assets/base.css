@@ -13,7 +13,40 @@
   --bs-link-hover-color-rgb: currentColor;
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
+@media (max-width: 599px) {
+ .productsection1 {
+   width: 100%;
 
+ }
+   .productsection2 {
+   width: 100%;
+
+ }
+}
+@media (min-width: 600px) {
+ .productsection1 {
+   width: 60%; 
+   float: left;
+ }
+   .productsection2 {
+   width: 20%;
+  padding-left: 3%;
+   float: left;
+ }
+}
+
+
+@media (min-width: 1200px) {
+ .productsection1 {
+   width: 65%; 
+   float: left;
+ }
+   .productsection2 {
+   width: 30%;
+  padding-left: 3%;
+   float: left;
+ }
+}
 
 /*
   Various classes
