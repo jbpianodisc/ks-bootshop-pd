@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "accessibility": {
@@ -48,7 +57,7 @@
     },
     "search": {
       "title": "Search",
-      "empty_html": "<p>Start typing to see results<\/p>",
+      "empty_html": "<p>Start typing to see results</p>",
       "continue_shopping": "Continue Shopping",
       "input_label": "Search our store...",
       "btn_label": "Search",
@@ -78,7 +87,7 @@
     },
     "wishlist": {
       "title": "Wishlist",
-      "empty_html": "<p>Your wishlist is currently empty<\/p>",
+      "empty_html": "<p>Your wishlist is currently empty</p>",
       "continue_shopping": "Continue Shopping",
       "wishlist": "Wishlist",
       "add": "Add to wishlist",
@@ -86,7 +95,7 @@
     },
     "recently_viewed": {
       "title": "Recently Viewed",
-      "empty_html": "<p>Your list is currently empty<\/p>",
+      "empty_html": "<p>Your list is currently empty</p>",
       "continue_shopping": "Continue Shopping",
       "remove_all": "Remove all"
     },
@@ -125,7 +134,7 @@
     }
   },
   "collection": {
-    "empty_html": "No products found! &nbsp; <a href=\"\/collections\/all\">View all »<\/a>",
+    "empty_html": "No products found! &nbsp; <a href=\"/collections/all\">View all »</a>",
     "sort_by": "Sort by",
     "count_products": {
       "one": "{{ count }} product",
@@ -151,7 +160,7 @@
     "buy_it_now": "Buy it now",
     "save": "Save",
     "sold_out": "Sold out",
-    "unavilable": "Unavilable",
+    "unavilable": "Unavailable",
     "quantity": "Quantity",
     "unavailable": "Unavailable",
     "product_options": "Product options",
@@ -162,23 +171,23 @@
     "sale_price": "Sale price",
     "stock_indicator": {
       "low_stock_html": {
-        "one": "Only, <b>{{ count }} item<\/b> is in stock!",
-        "other": "Only, <b>{{ count }} items<\/b> are in stock!"
+        "one": "Only, <b>{{ count }} item</b> is in stock!",
+        "other": "Only, <b>{{ count }} items</b> are in stock!"
       },
-      "normal_stock_html": "Currently, <b>{{ count }} items<\/b> are in stock!",
+      "normal_stock_html": "Currently, <b>{{ count }} items</b> are in stock!",
       "no_stock": "Unfortunately, this item is sold-out!",
       "untracked_stock": "Currently, this item has stock"
     }
   },
   "cart": {
     "title": "Cart",
-    "empty_html": "<p>Your cart is currently empty<\/p>",
+    "empty_html": "<p>Your cart is currently empty</p>",
     "continue_shopping": "Continue Shopping",
     "quantity": "Quantity",
     "property_view_file": "View file",
     "applied_discounts": "Applied discounts",
     "subtotal": "Subtotal",
-    "taxes_shipping_at_checkout_html": "Taxes &amp; <a href=\"\/policies\/shipping-policy\" target=\"_blank\">Shipping<\/a> calculated at checkout",
+    "taxes_shipping_at_checkout_html": "Taxes &amp; <a href=\"/policies/shipping-policy\" target=\"_blank\">Shipping</a> calculated at checkout",
     "checkout": "Checkout",
     "note": {
       "title": "Add a note to your order",
