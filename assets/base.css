@@ -17,13 +17,14 @@
 .dualsync-container::before {
      content: "";
     position: absolute;
-    top: 80px;
+    top: 83px;
     width: 200px;
     height: 65px;
     background-color: #343499;
-    border-radius: 0;
+    border-radius: 0% 0% 40px 0;
     z-index: 1;
-    border-top-left-radius: 0%;
+    left: 451px;
+    border-top-left-radius: 10px;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 40px;
     }
