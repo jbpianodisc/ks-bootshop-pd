@@ -41,6 +41,7 @@
         font-size: 16px;
         color: #333; /* Darker text color for readability */
         margin-bottom: 20px;
+      text-align: left;
     }
 
     .dualsync-button a {
