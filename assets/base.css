@@ -13,65 +13,65 @@
   --bs-link-hover-color-rgb: currentColor;
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
-    .dualsync-container {
-        background-color: #f0f0f0; /* Light gray background similar to the image */
-        width: 100%; /* Full width */
-        max-width: 600px; /* Adjust width to fit your Shopify page */
-        padding: 20px;
+
+.dualsync-logo::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 80px; /* Width of the curved background */
+        height: 80px; /* Height of the curved background */
+        background-color: #343499; /* Blue background */
+        border-radius: 50%; /* Creates the curved effect */
+        z-index: 1; /* Puts it behind the logo */
+    }
+   .dualsync-container {
+    
+        width: 100%; /* Adjust as needed */
+    
+  border-style: solid;
+         border-color: #343499;
         text-align: center;
         border-radius: 10px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        position: relative;
-        border-style: solid;
-        border-color: #343499; /* Darker blue border */
     }
 
     .dualsync-logo {
-        position: relative;
-        display: inline-block;
         margin-bottom: 15px; /* Space between logo and text */
-    }
-
-    /* Create the curved background using borders */
-    .dualsync-logo::before {
-        content: '';
-        position: absolute;
-        top: -15px;
-        left: -15px;
-        width: 90px;
-        height: 45px;
-        background-color: #343499; /* Dark blue background for the curved shape */
-        border-top-left-radius: 45px; /* Curved effect on the top-left */
-        border-bottom-right-radius: 45px; /* Adjust for a unique shape */
-        z-index: -1; /* Ensures it sits behind the logo */
+      text-align: left;
+      margin-top: 0px;
+      padding: 0px;
     }
 
     .dualsync-logo img {
-        width: 50px; /* Adjust the logo size */
-        z-index: 1;
-        position: relative; /* Ensures the logo stays on top of the background */
+        width: 150px; /* Adjust the logo size */
+      
     }
 
     .dualsync-text p {
+      padding: 2%;
         font-size: 16px;
         color: #333; /* Darker text color for readability */
         margin-bottom: 20px;
+      text-align: left;
     }
-
+.dualsync-button {
+  width: 100%;
+}
     .dualsync-button a {
-        background-color: #343499; /* Dark blue button background */
+        background-color: #343499; /* Blue button background */
         color: white;
         padding: 10px 20px;
         border-radius: 5px;
         text-decoration: none;
         font-weight: bold;
         display: inline-block;
-        text-align: left; /* Left-aligns the button text */
-        width: 100%; /* Button spans the full width */
+      text-align: left;
+      width: 100%;
     }
 
     .dualsync-button a:hover {
-        background-color: #2a2877; /* Slightly darker blue on hover */
+        background-color: #0056b3; /* Darker blue on hover */
     }
 
 @media (max-width: 599px) {
