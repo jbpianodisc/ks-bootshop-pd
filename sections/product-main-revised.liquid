@@ -74,7 +74,10 @@
            <div class="col-desktop-3">
        {% liquid
                   for block in section.blocks
+             case block.type
+                  when 'productdescription'
                         render 'product-block-description', block: block
+                endcase
                endfor
                 %}
       </div>
