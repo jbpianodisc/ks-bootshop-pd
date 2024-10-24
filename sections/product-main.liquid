@@ -50,34 +50,10 @@
                         render 'product-block-options', block: block, form: form
                       when 'atc_button'
                         render 'product-block-atc-button', block: block, form: form
-                      when 'collapse'
-                        render 'product-block-collapse', block: block
-                      when 'trust_icons'
-                        render 'product-block-trust-icons', block: block
-                      when 'separator'
-                        render 'product-block-separator', block: block
-                      when 'stock_indicator'
-                        render 'product-block-stock-indicator', block: block
-                      when '@app'
-                        render block
-                    endcase
-                  endfor
-                %}
-              {% endform %}
-            </product-form>
-          </div>
-        </div>
-         <div class="col-desktop-4">
-          <div id="product-inner-{{ product.id }}">
-            <product-form>
-              {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
-                <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-                {% liquid
-                  for block in section.blocks
-                    case block.type
                       when 'richtext'
                         render 'product-block-richtext', block: block
-                
+                      when 'collapse'
+                        render 'product-block-collapse', block: block
                       when 'liquid'
                         render 'product-block-liquid', block: block
                       when 'trust_icons'
@@ -94,6 +70,13 @@
               {% endform %}
             </product-form>
           </div>
+           <div class="col-md-4">
+        {% for block in section.blocks %}
+          {% if block.type == 'richtext' %}
+            {% render 'product-block-richtext', block: block %}
+          {% endif %}
+        {% endfor %}
+      </div>
         </div>
       </div>
     </div>
