@@ -57,13 +57,7 @@
             </product-form>
           </div>
            <div class="col-md-4">
-     {% liquid
-            for block in section.blocks
-              if block.type == 'richtext'
-                render 'product-block-richtext', block: block
-              endif
-            endfor
-          %}
+     {% liquid render 'product-block-richtext', block: block %}
       </div>
         </div>
       </div>
