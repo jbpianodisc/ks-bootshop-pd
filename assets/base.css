@@ -13,6 +13,18 @@
   --bs-link-hover-color-rgb: currentColor;
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
+
+.dualsync-logo::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 80px; /* Width of the curved background */
+        height: 80px; /* Height of the curved background */
+        background-color: #007bff; /* Blue background */
+        border-radius: 50%; /* Creates the curved effect */
+        z-index: -1; /* Puts it behind the logo */
+    }
    .dualsync-container {
     
         width: 100%; /* Adjust as needed */
