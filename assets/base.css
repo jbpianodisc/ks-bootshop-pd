@@ -54,6 +54,8 @@
         text-decoration: none;
         font-weight: bold;
         display: inline-block;
+      text-align: left;
+      width: 100%;
     }
 
     .dualsync-button a:hover {
