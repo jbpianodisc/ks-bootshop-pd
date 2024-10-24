@@ -10,7 +10,7 @@
 {
   "sections": {
     "8f4f1b58-133b-491a-a7b2-8bf2e6fbc583": {
-      "type": "product-main-revised",
+      "type": "product-dualsync",
       "blocks": {
         "8abeac2d-7b60-4697-891c-4d6201789d31": {
           "type": "media_gallery",
@@ -82,11 +82,11 @@
         "ea44a44f-429a-4dd2-b40c-f1bf6304c554": {
           "type": "atc_button",
           "settings": {
-            "show_qty_field": false,
+            "show_qty_field": true,
             "show_dynamic_buttons": false,
             "atc_btn_color": "btn-primary",
             "atc_btn_size": "",
-            "show_buy_btn": false,
+            "show_buy_btn": true,
             "buy_btn_color": "btn-outline-secondary",
             "buy_btn_size": "",
             "pt": 0,
@@ -109,7 +109,6 @@
         },
         "11016cfc-fdff-46f2-9b6b-26a6e68b7653": {
           "type": "collapse",
-          "disabled": true,
           "settings": {
             "icon_size": 20,
             "title": "Product Details",
@@ -189,19 +188,6 @@
             "pt": 3,
             "pb": 3
           }
-        },
-        "productdescription_89JDKY": {
-          "type": "productdescription",
-          "settings": {
-            "title": "",
-            "title_font_size": "h5",
-            "description": "",
-            "description_font_size": "fs-sm",
-            "product_description": true,
-            "description_classes": "",
-            "pt": 0,
-            "pb": 0
-          }
         }
       },
       "block_order": [
@@ -217,12 +203,7 @@
         "9ecd1e68-8c4b-4330-ac14-7459a1896521",
         "0f571c64-329e-4ea3-9c76-ebf86266226a",
         "separator_cWJNG3",
-        "liquid_iDU3Rg",
-        "productdescription_89JDKY"
-      ],
-      "custom_css": [
-        ".productsection2 h2 {font-size: 15px;}",
-        ".productsection2 {color: rgba(var(--bs-primary-rgb), 1);}"
+        "liquid_iDU3Rg"
       ],
       "settings": {
         "bg_color": "bg-white",
