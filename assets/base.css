@@ -20,9 +20,14 @@
  }
    .productsection2 {
    width: 100%;
+  
+        background: #f2f2f2;
+        border-radius: 3%;
+        padding: 2.5%;
+    }
 
  }
-}
+
 @media (min-width: 600px) {
  .productsection1 {
    width: 60%; 
@@ -32,6 +37,10 @@
    width: 20%;
   padding-left: 3%;
    float: left;
+           background: #f2f2f2;
+        border-radius: 3%;
+        padding: 2.5%;
+    
  }
 }
 
@@ -45,6 +54,10 @@
    width: 30%;
   padding-left: 3%;
    float: left;
+           background: #f2f2f2;
+        border-radius: 3%;
+        padding: 2.5%;
+    
  }
 }
 
