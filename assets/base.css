@@ -69,7 +69,65 @@
         background-color: #0056b3; /* Darker blue on hover */
     }
 
+.dualsync-logo::before {
+        content: '';
+        position: absolute;
+        top: -20px;
+        left: -20px;
+        width: 80px; /* Width of the curved background */
+        height: 80px; /* Height of the curved background */
+        background-color: #343499; /* Blue background */
+        border-radius: 50%; /* Creates the curved effect */
+        z-index: 1; /* Puts it behind the logo */
+    }
+   .dualsync-container {
+    
+        width: 100%; /* Adjust as needed */
+    
+  border-style: solid;
+         border-color: #343499;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
 
+    .dualsync-logo {
+        margin-bottom: 15px; /* Space between logo and text */
+      text-align: left;
+      margin-top: 0px;
+      padding: 0px;
+    }
+
+    .dualsync-logo img {
+        width: 150px; /* Adjust the logo size */
+      
+    }
+
+    .dualsync-text p {
+      padding: 2%;
+        font-size: 16px;
+        color: #333; /* Darker text color for readability */
+        margin-bottom: 20px;
+      text-align: left;
+    }
+.dualsync-button {
+  width: 100%;
+}
+    .dualsync-button a {
+        background-color: #343499; /* Blue button background */
+        color: white;
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-block;
+      text-align: left;
+      width: 100%;
+    }
+
+    .dualsync-button a:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+    }
 
 @media (max-width: 599px) {
  .productsection1 {
