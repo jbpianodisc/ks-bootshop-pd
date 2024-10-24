@@ -2,6 +2,10 @@
   assign variants_json = product.variants | json
 %}
 
+{% liquid
+  assign variants_json = product.variants | json
+%}
+
 <section 
   id="product-main{{ product.id }}" 
   class="
@@ -30,15 +34,21 @@
       <a class="visually-hidden-focusable" href="#product-inner-{{ product.id }}">
         {{ 'general.accessibility.skip_product_content' | t }}
       </a>      
+      
       <div class="row">
-        <div class="col-desktop-7 mb-5 mb-desktop-0">
+        
+        <!-- First Column: Media Gallery -->
+        <div class="col-md-4 mb-5">
           {% render 'product-block-media-gallery' %}
         </div>
-        <div class="col-desktop-7">
+
+        <!-- Second Column: Title, Price, and Options -->
+        <div class="col-md-4">
           <div id="product-inner-{{ product.id }}">
             <product-form>
               {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
                 <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
+                
                 {% liquid
                   for block in section.blocks
                     case block.type
@@ -50,42 +60,32 @@
                         render 'product-block-options', block: block, form: form
                       when 'atc_button'
                         render 'product-block-atc-button', block: block, form: form
-                      when 'richtext'
-                        render 'product-block-richtext', block: block
-                      when 'collapse'
-                        render 'product-block-collapse', block: block
-                      when 'liquid'
-                        render 'product-block-liquid', block: block
-                      when 'trust_icons'
-                        render 'product-block-trust-icons', block: block
-                      when 'separator'
-                        render 'product-block-separator', block: block
-                      when 'stock_indicator'
-                        render 'product-block-stock-indicator', block: block
-                      when '@app'
-                        render block
                     endcase
                   endfor
                 %}
+                
               {% endform %}
             </product-form>
           </div>
-           <div class="col-md-4">
-       {% if block.settings.description != blank or block.settings.product_description != false %}
-    <div class="description rte mb-0 {{ block.settings.description_font_size }} {{ block.settings.description_classes }}">
-      {{ block.settings.description }}
-      {% if block.settings.product_description %}
-        {{ product.description }}
-      {% endif %}
-    </div>
-  {% endif %}
-
-      </div>
         </div>
+        
+        <!-- Third Column: Product Description -->
+        <div class="col-md-4">
+          {% liquid
+            for block in section.blocks
+              if block.type == 'richtext'
+                render 'product-block-richtext', block: block
+              endif
+            endfor
+          %}
+        </div>
+        
       </div>
+
     </div>
   </div>
 </section>
+
 
 {% schema %}
 {
