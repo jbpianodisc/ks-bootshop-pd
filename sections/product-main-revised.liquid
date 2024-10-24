@@ -73,9 +73,9 @@
         </div>
            <div class="col-desktop-3">
        {% liquid
-               
+                  for block in section.blocks
                         render 'product-block-description', block: block
-          
+               endfor
                 %}
       </div>
       </div>
