@@ -31,10 +31,10 @@
         {{ 'general.accessibility.skip_product_content' | t }}
       </a>      
       <div class="row">
-        <div class="col-desktop-7 mb-5 mb-desktop-0">
+        <div class="col-desktop-9 mb-5 mb-desktop-0">
           {% render 'product-block-media-gallery' %}
         </div>
-        <div class="col-desktop-6">
+        <div class="col-desktop-9">
           <div id="product-inner-{{ product.id }}">
             <product-form>
               {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
@@ -50,6 +50,20 @@
                         render 'product-block-options', block: block, form: form
                       when 'atc_button'
                         render 'product-block-atc-button', block: block, form: form
+                      when 'richtext'
+                        render 'product-block-richtext', block: block
+                      when 'collapse'
+                        render 'product-block-collapse', block: block
+                      when 'liquid'
+                        render 'product-block-liquid', block: block
+                      when 'trust_icons'
+                        render 'product-block-trust-icons', block: block
+                      when 'separator'
+                        render 'product-block-separator', block: block
+                      when 'stock_indicator'
+                        render 'product-block-stock-indicator', block: block
+                      when '@app'
+                        render block
                     endcase
                   endfor
                 %}
@@ -57,9 +71,6 @@
             </product-form>
           </div>
         </div>
-           <div class="col-desktop-3">
-     {% liquid render 'product-description' %}
-      </div>
       </div>
     </div>
   </div>
