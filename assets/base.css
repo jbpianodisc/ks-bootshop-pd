@@ -35,7 +35,7 @@
  }
    .productsection2 {
    width: 20%;
-  padding-left: 3%;
+  margin-left: 3%;
    float: left;
            background: #f2f2f2;
         border-radius: 3%;
@@ -47,12 +47,12 @@
 
 @media (min-width: 1200px) {
  .productsection1 {
-   width: 65%; 
+   width: 60%; 
    float: left;
  }
    .productsection2 {
-   width: 30%;
-  padding-left: 3%;
+   width: 35%;
+  margin-left: 3%;
    float: left;
            background: #f2f2f2;
         border-radius: 3%;
