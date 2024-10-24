@@ -220,6 +220,9 @@
         "liquid_iDU3Rg",
         "productdescription_89JDKY"
       ],
+      "custom_css": [
+        "h2 {font-size: 15px;}"
+      ],
       "settings": {
         "bg_color": "bg-white",
         "bg_opacity": 100,
