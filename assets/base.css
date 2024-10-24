@@ -14,7 +14,7 @@
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
 
-.dualsync-logo::before {
+.dualsync-logo::after {
      content: "";
     position: absolute;
     top: 80px;
