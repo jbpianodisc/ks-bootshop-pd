@@ -58,6 +58,19 @@
             "pb": 3
           }
         },
+        "richtext_KCKJMV": {
+          "type": "richtext",
+          "settings": {
+            "title": "Richtext Title",
+            "title_font_size": "h6",
+            "description": "<p>Richtext description goes here</p>",
+            "description_font_size": "fs-md",
+            "product_description": false,
+            "description_classes": "",
+            "pt": 0,
+            "pb": 0
+          }
+        },
         "4566c39b-0f51-4900-b193-a0ac76bf0c8f": {
           "type": "options",
           "settings": {
@@ -193,8 +206,8 @@
         "productdescription_89JDKY": {
           "type": "productdescription",
           "settings": {
-            "title": "Track List",
-            "title_font_size": "h6",
+            "title": "",
+            "title_font_size": "h5",
             "description": "",
             "description_font_size": "fs-sm",
             "product_description": true,
@@ -209,6 +222,7 @@
         "40d3cdd3-9d78-4f15-b346-c3f46d49f7b1",
         "bf49a5ff-d625-4485-a09c-44d883547f90",
         "095886ab-f46a-4a25-9d3d-e7c79235921b",
+        "richtext_KCKJMV",
         "4566c39b-0f51-4900-b193-a0ac76bf0c8f",
         "a277dbff-85ae-4c5e-ad26-4f7bb2cadc74",
         "ea44a44f-429a-4dd2-b40c-f1bf6304c554",
