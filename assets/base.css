@@ -22,7 +22,10 @@
         width: 80px; /* Width of the curved background */
         height: 80px; /* Height of the curved background */
         background-color: #343499; /* Blue background */
-        border-radius: 50%; /* Creates the curved effect */
+        border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+border-bottom-left-radius: 50%;
         z-index: 1; /* Puts it behind the logo */
     }
    .dualsync-container {
@@ -41,6 +44,7 @@
       text-align: left;
       margin-top: 0px;
       padding: 0px;
+      z-index:1;
     }
 
     .dualsync-logo img {
