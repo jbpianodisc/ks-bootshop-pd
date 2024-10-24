@@ -221,7 +221,7 @@
         "productdescription_89JDKY"
       ],
       "custom_css": [
-        "h2 {font-size: 15px;}"
+        ".productsection2 h2 {font-size: 15px;}"
       ],
       "settings": {
         "bg_color": "bg-white",
