@@ -2,10 +2,6 @@
   assign variants_json = product.variants | json
 %}
 
-{% liquid
-  assign variants_json = product.variants | json
-%}
-
 <section 
   id="product-main{{ product.id }}" 
   class="
@@ -34,21 +30,15 @@
       <a class="visually-hidden-focusable" href="#product-inner-{{ product.id }}">
         {{ 'general.accessibility.skip_product_content' | t }}
       </a>      
-      
       <div class="row">
-        
-        <!-- First Column: Media Gallery -->
-        <div class="col-md-4 mb-5">
+        <div class="col-desktop-7 mb-5 mb-desktop-0">
           {% render 'product-block-media-gallery' %}
         </div>
-
-        <!-- Second Column: Title, Price, and Options -->
-        <div class="col-md-4">
+        <div class="col-desktop-7">
           <div id="product-inner-{{ product.id }}">
             <product-form>
               {% form 'product', product, data-productid: product.id, data-variants: variants_json %}
                 <input type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.selected_or_first_available_variant.id }}">
-                
                 {% liquid
                   for block in section.blocks
                     case block.type
@@ -63,29 +53,23 @@
                     endcase
                   endfor
                 %}
-                
               {% endform %}
             </product-form>
           </div>
-        </div>
-        
-        <!-- Third Column: Product Description -->
-        <div class="col-md-4">
-          {% liquid
+           <div class="col-md-4">
+     {% liquid
             for block in section.blocks
               if block.type == 'richtext'
                 render 'product-block-richtext', block: block
               endif
             endfor
           %}
-        </div>
-        
       </div>
-
+        </div>
+      </div>
     </div>
   </div>
 </section>
-
 
 {% schema %}
 {
