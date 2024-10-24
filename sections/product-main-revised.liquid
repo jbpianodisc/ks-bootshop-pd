@@ -50,6 +50,20 @@
                         render 'product-block-options', block: block, form: form
                       when 'atc_button'
                         render 'product-block-atc-button', block: block, form: form
+                      when 'richtext'
+                        render 'product-block-richtext', block: block
+                      when 'collapse'
+                        render 'product-block-collapse', block: block
+                      when 'liquid'
+                        render 'product-block-liquid', block: block
+                      when 'trust_icons'
+                        render 'product-block-trust-icons', block: block
+                      when 'separator'
+                        render 'product-block-separator', block: block
+                      when 'stock_indicator'
+                        render 'product-block-stock-indicator', block: block
+                      when '@app'
+                        render block
                     endcase
                   endfor
                 %}
@@ -58,7 +72,11 @@
           </div>
         </div>
            <div class="col-desktop-3">
-     {% liquid render 'product-description' %}
+       {% liquid
+                  for block in section.blocks
+                        render 'product-block-description', block: block
+               endfor
+                %}
       </div>
       </div>
     </div>
@@ -622,6 +640,87 @@
           "label": "Product description",
           "info": "Show the actual product description",
           "default": false
+        },
+        {
+          "type": "html",
+          "id": "description_classes",
+          "label": "Description classes",
+          "info": "A space-separated list of classes to apply (E.g. opacity-70 text-primary small)"
+        },
+
+        {
+          "type": "header",
+          "content": "Spacing"
+        },
+        {
+          "type": "range",
+          "id": "pt",
+          "label": "Top",
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "pb",
+          "label": "Bottom",
+          "min": 0,
+          "max": 20,
+          "step": 1,
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "productdescription",
+      "name": "Description",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Description Title"
+        },
+        {
+          "type": "select",
+          "id": "title_font_size",
+          "label": "Title font-size",
+          "default": "h6",
+          "options": [
+            { "value": "h1", "label": "H1" },
+            { "value": "h2", "label": "H2" },
+            { "value": "h3", "label": "H3" },
+            { "value": "h4", "label": "H4" },
+            { "value": "h5", "label": "H5" },
+            { "value": "h6", "label": "H6" }
+          ]
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "Description",
+          "default": "<p>Richtext description goes here</p>"
+        },
+        {
+          "type": "select",
+          "id": "description_font_size",
+          "label": "Description font-size",
+          "default": "fs-md",
+          "options": [
+            { "value": "fs-sm", "label": "sm" },
+            { "value": "fs-md", "label": "md" },
+            { "value": "fs-lg", "label": "lg" },
+            { "value": "fs-xl", "label": "xl" },
+            { "value": "fs-xxl", "label": "xxl" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "product_description",
+          "label": "Product description",
+          "info": "Show the actual product description",
+          "default": true
         },
         {
           "type": "html",
