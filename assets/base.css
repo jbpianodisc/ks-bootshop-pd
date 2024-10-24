@@ -47,7 +47,7 @@
 
 @media (min-width: 1200px) {
  .productsection1 {
-   width: 56%; 
+   width: 55%; 
    float: left;
  }
    .productsection2 {
@@ -56,7 +56,7 @@
    float: left;
            background: #f2f2f2;
         border-radius: 3%;
-        padding: 1.5%;
+        padding: 2.5%;
     
  }
 }
