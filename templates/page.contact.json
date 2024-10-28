@@ -12,7 +12,7 @@
     "html_RgnkAJ": {
       "type": "html",
       "custom_css": [
-        ".container {background: #efefef;}"
+        ".html-section {background: #efefef !important;}"
       ],
       "settings": {
         "liquid": "<div class=\"contact-container\">\n        <!-- Column 1 -->\n        <div class=\"contactcolumn-1\">\n            <h1>Contact Us</h1>\n            <p style=\"font-size: 20px;\">If you have any questions, need assistance, or want to learn more about our services, feel free to reach out. We're here to help!</p>\n        </div>\n        \n        <!-- Column 2 -->\n        <div class=\"contactcolumn-2\">\n            <h4>Email Us:</h4>\n            <p>Technical support: <a href=\"mailto:tech@pianodisc.com\">tech@pianodisc.com</a></p>\n            <p>Player system upgrades: <a href=\"mailto:upgrades@pianodisc.com\">upgrades@pianodisc.com</a></p>\n        </div>\n        \n        <!-- Column 3 -->\n        <div class=\"contactcolumn-3\">\n            <h4>Call us:</h4>\n            <p>US toll-free: (866) 566-3472</p>\n            <p>Or at: (916) 567-9999</p>\n            \n            <h4>Office Hours:</h4>\n            <p>Monday – Friday: 4:00am – 7:00pm PST<br>\n               Saturday: 8:00am – 4:00pm PST</p>\n        </div>\n    </div>",
