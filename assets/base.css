@@ -6,6 +6,9 @@
 /*
   Variables
 */
+
+
+
 :root {
   --bs-link-color: currentColor;
   --bs-link-color-rgb: currentColor;
@@ -13,6 +16,38 @@
   --bs-link-hover-color-rgb: currentColor;
   --bs-border-color: rgba(var(--bs-body-color-rgb), .1);
 }
+ /* Main container styling */
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+
+        /* Column styling */
+        .contactcolumn-1 {
+            flex: 2 1 100%;
+        }
+
+        .contactcolumn-2, .contactcolumn-3 {
+            flex: 1 1 50%;
+        }
+
+        /* Responsive adjustments */
+        @media (min-width: 768px) {
+            .contactcolumn-1 {
+                flex: 2;
+            }
+
+            .contactcolumn-2, .contactcolumn-3 {
+                flex: 1;
+            }
+        }
+
+
+
 
 .dualsync-container::before {
      content: "";
