@@ -118,6 +118,14 @@
     }
 
 @media (max-width: 700px) {
+.productdiv1 {
+  width: 100%;
+}
+  .productdiv2 {
+    width: 100%;
+  }
+
+  
  .productsection1 {
    width: 100%;
 
@@ -146,10 +154,23 @@
         padding: 2.5%;
     
  }
+  .productdiv1 {
+  width: 20%;
+}
+  .productdiv2 {
+    width: 80%;
+  }
 }
 
 
 @media (min-width: 1200px) {
+
+  .productdiv1 {
+  width: 30%;
+}
+  .productdiv2 {
+    width: 70%;
+  }
  .productsection1 {
    width: 55%; 
    float: left;
