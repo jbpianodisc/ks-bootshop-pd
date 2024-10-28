@@ -42,11 +42,12 @@
           "settings": {
             "menu": "footer",
             "title_font_size": "fs-xl",
-            "title": "Company"
+            "title": "Quick Links"
           }
         },
         "8b92bb0f-7aaa-4462-8660-b6a23bd9c31c": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "menu": "",
             "title_font_size": "fs-xl",
