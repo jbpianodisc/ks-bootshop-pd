@@ -117,7 +117,7 @@
         background-color: #0056b3; /* Darker blue on hover */
     }
 
-@media (max-width: 599px) {
+@media (max-width: 700px) {
  .productsection1 {
    width: 100%;
 
@@ -132,7 +132,7 @@
 
  }
 
-@media (min-width: 600px) {
+@media (min-width: 701px) {
  .productsection1 {
    width: 60%; 
    float: left;
