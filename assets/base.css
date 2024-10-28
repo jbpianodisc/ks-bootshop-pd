@@ -29,6 +29,7 @@
         /* Column styling */
         .contactcolumn-1 {
             flex: 2 1 100%;
+          margin-left: 0px;
         }
 
         .contactcolumn-2, .contactcolumn-3 {
