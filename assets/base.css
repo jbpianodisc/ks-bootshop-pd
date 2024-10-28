@@ -50,20 +50,21 @@
 
 
 
+
 .dualsync-logo::before {
-     content: "";
+    content: "";
     position: absolute;
-    top: 83px;
+    top: 0px;
     width: 200px;
     height: 65px;
     background-color: #343499;
     border-radius: 0% 0% 40px 0;
-    z-index: 1;
-    left: 451px;
-    border-top-left-radius: 10px;
+    z-index: -1;
+    left: 0px;
+    border-top-left-radius: 8px;
     border-top-right-radius: 0%;
     border-bottom-right-radius: 40px;
-    }
+}
    .dualsync-container {
     
         width: 100%; /* Adjust as needed */
