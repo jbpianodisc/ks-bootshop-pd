@@ -38,13 +38,13 @@
     "ba94d905-ea2f-4198-8472-5296b1853fb5": {
       "type": "contact-form",
       "settings": {
-        "bg_color": "bg-primary",
+        "bg_color": "bg-white",
         "bg_opacity": 100,
         "bg_gradient": "",
-        "text_color": "text-white",
+        "text_color": "text-primary",
         "border_top_width": 0,
         "border_bottom_width": 0,
-        "border_color": "border-body",
+        "border_color": "border-primary",
         "border_opacity": 100,
         "container_max_width": "",
         "header_title": "",
