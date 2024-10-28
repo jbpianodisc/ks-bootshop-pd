@@ -36,17 +36,7 @@
                     {% render 'svg-icons', icon: 'menu' %}
                   </a>
                 </li>
-                {% if shop.customer_accounts_enabled %}
-                  <li class="nav-item">
-                    <a 
-                      class="nav-link nav-link-icon {% if template.name == 'login' or template.name == 'account' %}active{% endif %}" 
-                      aria-current="{% if template.name == 'login' or template.name == 'account' %}page{% endif %}" 
-                      href="{{ routes.account_url }}"
-                      aria-label="{{ 'general.accessibility.account' | t }}">
-                      {% render 'svg-icons', icon: 'account' %}
-                    </a>
-                  </li>
-                {% endif %}
+              
               </ul>
             </div>
             <div class="col-8 text-center">
@@ -64,6 +54,17 @@
                       aria-label="{{ 'general.accessibility.search' | t }}"
                       role="button">
                       {% render 'svg-icons', icon: 'search' %}
+                    </a>
+                  </li>
+                {% endif %}
+                  {% if shop.customer_accounts_enabled %}
+                  <li class="nav-item">
+                    <a 
+                      class="nav-link nav-link-icon {% if template.name == 'login' or template.name == 'account' %}active{% endif %}" 
+                      aria-current="{% if template.name == 'login' or template.name == 'account' %}page{% endif %}" 
+                      href="{{ routes.account_url }}"
+                      aria-label="{{ 'general.accessibility.account' | t }}">
+                      {% render 'svg-icons', icon: 'account' %}
                     </a>
                   </li>
                 {% endif %}
