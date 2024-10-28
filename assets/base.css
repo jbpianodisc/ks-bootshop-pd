@@ -68,7 +68,7 @@
    .dualsync-container {
     
         width: 100%; /* Adjust as needed */
-    
+    padding-top: 6px;
   border-style: solid;
          border-color: #343499;
         text-align: center;
