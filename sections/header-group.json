@@ -17,7 +17,7 @@
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
-            "announcement": "Announce something important here"
+            "announcement": "<strong>Thanksgiving Sale! 20% using code THANK24</strong>"
           }
         },
         "slide_mwF4Tk": {
@@ -41,11 +41,11 @@
         "border_color": "border-body",
         "border_opacity": 100,
         "container_max_width": "600",
-        "font_size": "fs-xs",
-        "font_size_desktop": "fs-desktop-sm",
+        "font_size": "fs-sm",
+        "font_size_desktop": "fs-desktop-md",
         "text_transform": "",
         "letter_spacing": 1,
-        "carousel_autoplay": 5,
+        "carousel_autoplay": 7,
         "carousel_vertical": true,
         "pt": 4,
         "pb": 4
