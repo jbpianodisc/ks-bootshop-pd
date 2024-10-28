@@ -1,5 +1,5 @@
 <div
-  id="newsletter-{{ section.id }} newsletter" 
+  id="newsletter-{{ section.id }}" 
   class="
     newsletter 
     {{ section.settings.bg_color }} 
@@ -17,6 +17,7 @@
   ">
   <div 
     class="container"
+    id="newsletter"
     style="max-width: {{ section.settings.container_max_width }}px;">
     {% render 'section-header' %}
     {% form 'customer', class: 'newsletter-form' %}
