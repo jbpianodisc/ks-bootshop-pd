@@ -48,6 +48,23 @@
             "btn_secondary_url": "shopify://collections/all"
           }
         },
+        "slide_7zWrdw": {
+          "type": "slide",
+          "settings": {
+            "img_mobile": "shopify://shop_images/pd-dualsync.jpg",
+            "img_desktop": "shopify://shop_images/pd-dualsync.jpg",
+            "overlay_color": "#10103b",
+            "overlay_opacity": 30,
+            "overlay_blur": 0,
+            "subtitle": "Introducing",
+            "title": "DualSync",
+            "description": "<p>The cutting-edge of PianoDisc music.</p>",
+            "btn_primary_text": "Shop Now",
+            "btn_primary_url": "shopify://collections/pianosync",
+            "btn_secondary_text": "Learn More",
+            "btn_secondary_url": ""
+          }
+        },
         "slide_teiDbJ": {
           "type": "slide",
           "settings": {
@@ -69,6 +86,7 @@
       "block_order": [
         "slide_Q4UPQq",
         "slide_qEDXma",
+        "slide_7zWrdw",
         "slide_teiDbJ"
       ],
       "settings": {
