@@ -38,6 +38,7 @@
         },
         "bf49a5ff-d625-4485-a09c-44d883547f90": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_font_size": "h6",
