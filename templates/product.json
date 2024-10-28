@@ -64,7 +64,7 @@
           "settings": {
             "options_style": "buttons",
             "color_swatches": "Color, color",
-            "pt": 0,
+            "pt": 5,
             "pb": 3
           }
         },
@@ -225,7 +225,8 @@
       "custom_css": [
         ".productsection2 h2 {font-size: 15px;}",
         ".productsection2 {font-size: 13px; color: rgba(var(--bs-primary-rgb), 1);}",
-        ".shopify-installments {display: none !important;}"
+        ".shopify-installments {display: none !important;}",
+        ".product-options .mb-1 {display: none;}"
       ],
       "settings": {
         "bg_color": "bg-white",
@@ -238,7 +239,7 @@
         "border_color": "border-secondary",
         "border_opacity": 100,
         "container_max_width": "",
-        "pt": 10,
+        "pt": 0,
         "pb": 10
       }
     },
