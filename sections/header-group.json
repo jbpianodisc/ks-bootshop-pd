@@ -34,7 +34,7 @@
       "settings": {
         "bg_color": "bg-primary",
         "bg_opacity": 100,
-        "bg_gradient": "bg-gradient",
+        "bg_gradient": "",
         "text_color": "text-white",
         "border_top_width": 0,
         "border_bottom_width": 0,
@@ -48,7 +48,7 @@
         "carousel_autoplay": 7,
         "carousel_vertical": true,
         "pt": 4,
-        "pb": 4
+        "pb": 3
       }
     },
     "navbar": {
