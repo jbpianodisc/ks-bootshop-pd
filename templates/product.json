@@ -33,11 +33,12 @@
           "settings": {
             "title_font_size": "h2",
             "pt": 3,
-            "pb": 9
+            "pb": 0
           }
         },
         "bf49a5ff-d625-4485-a09c-44d883547f90": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "title": "",
             "title_font_size": "h6",
@@ -52,10 +53,10 @@
         "095886ab-f46a-4a25-9d3d-e7c79235921b": {
           "type": "price",
           "settings": {
-            "font_size": "fs-lg",
+            "font_size": "fs-xxl",
             "badge_discount_type": "percentage",
             "pt": 0,
-            "pb": 3
+            "pb": 0
           }
         },
         "4566c39b-0f51-4900-b193-a0ac76bf0c8f": {
@@ -95,6 +96,7 @@
         },
         "08894b72-c532-44db-9228-5f14c9841895": {
           "type": "trust_icons",
+          "disabled": true,
           "settings": {
             "label": "What we promise",
             "max_width": "460",
