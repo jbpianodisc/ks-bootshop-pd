@@ -224,7 +224,8 @@
       ],
       "custom_css": [
         ".productsection2 h2 {font-size: 15px;}",
-        ".productsection2 {font-size: 13px; color: rgba(var(--bs-primary-rgb), 1);}"
+        ".productsection2 {font-size: 13px; color: rgba(var(--bs-primary-rgb), 1);}",
+        ".shopify-installments {display: none !important;}"
       ],
       "settings": {
         "bg_color": "bg-white",
