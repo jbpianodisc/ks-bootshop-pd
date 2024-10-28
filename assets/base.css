@@ -21,15 +21,15 @@
             display: flex;
             flex-wrap: wrap;
             gap: 20px;
-            padding: 20px;
+            padding: 30px;
             max-width: 1200px;
-            margin: auto;
+            margin: 0px
         }
 
         /* Column styling */
         .contactcolumn-1 {
             flex: 2 1 100%;
-          margin-left: 0px;
+       \
         }
 
         .contactcolumn-2, .contactcolumn-3 {
