@@ -24,7 +24,7 @@
         "border_bottom_width": 0,
         "border_color": "border-body",
         "border_opacity": 100,
-        "container": "",
+        "container": "container",
         "container_max_width": "",
         "text_align": "text-start",
         "header_title": "",
