@@ -241,7 +241,7 @@
         "border_color": "border-secondary",
         "border_opacity": 100,
         "container_max_width": "",
-        "pt": 0,
+        "pt": 7,
         "pb": 10
       }
     },
