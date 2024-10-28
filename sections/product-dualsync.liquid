@@ -120,7 +120,36 @@ audio::-webkit-media-controls-play-button:hover {
                   endfor
                 %}
                 <div class="productsection1">
-                  <!-- Container for the DualSync section -->
+
+
+
+
+
+ {% liquid
+                  for block in section.blocks
+                    case block.type
+                      when 'options'
+                        render 'product-block-options', block: block, form: form
+                      when 'atc_button'
+                        render 'product-block-atc-button', block: block, form: form
+                      when 'richtext'
+                        render 'product-block-richtext', block: block
+                      when 'liquid'
+                        render 'product-block-liquid', block: block
+                      when 'trust_icons'
+                        render 'product-block-trust-icons', block: block
+                      when 'separator'
+                        render 'product-block-separator', block: block
+                      when 'stock_indicator'
+                        render 'product-block-stock-indicator', block: block
+                      when '@app'
+                        render block
+                    endcase
+                  endfor
+                %}
+             
+
+                                  <!-- Container for the DualSync section -->
 <div class="dualsync-container">
     <!-- Logo section (you can insert your white logo here) -->
     <div class="dualsync-logo">
@@ -138,37 +167,15 @@ audio::-webkit-media-controls-play-button:hover {
         <a href="https://itunes.apple.com" target="_blank">Click here to buy from iTunes.</a>
     </div>
 </div>
-
-<!-- CSS Styles -->
-
-
- {% liquid
+                  {% liquid
                   for block in section.blocks
                     case block.type
-                      when 'options'
-                        render 'product-block-options', block: block, form: form
-                      when 'atc_button'
-                        render 'product-block-atc-button', block: block, form: form
-                      when 'richtext'
-                        render 'product-block-richtext', block: block
                       when 'collapse'
                         render 'product-block-collapse', block: block
-                      when 'liquid'
-                        render 'product-block-liquid', block: block
-                      when 'trust_icons'
-                        render 'product-block-trust-icons', block: block
-                      when 'separator'
-                        render 'product-block-separator', block: block
-                      when 'stock_indicator'
-                        render 'product-block-stock-indicator', block: block
-                      when '@app'
-                        render block
-                    endcase
+                     endcase
                   endfor
                 %}
-             
 
-                
                 </div>
 
                      <div class="productsection2">
