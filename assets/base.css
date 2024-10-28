@@ -50,7 +50,7 @@
 
 
 
-.dualsync-container::before {
+.dualsync-logo::before {
      content: "";
     position: absolute;
     top: 83px;
