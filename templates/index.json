@@ -47,11 +47,29 @@
             "btn_secondary_text": "Shop Now",
             "btn_secondary_url": "shopify://collections/all"
           }
+        },
+        "slide_teiDbJ": {
+          "type": "slide",
+          "settings": {
+            "img_mobile": "shopify://shop_images/pd-santa.jpg",
+            "img_desktop": "shopify://shop_images/pd-santa.jpg",
+            "overlay_color": "#4b190f",
+            "overlay_opacity": 30,
+            "overlay_blur": 0,
+            "subtitle": "",
+            "title": "Gear Up for Christmas",
+            "description": "<p>It'll be here before you know it, so get ready by adding these Christmas Classics <br/>to your PianoDisc system!</p>",
+            "btn_primary_text": "Shop now",
+            "btn_primary_url": "shopify://collections/christmas",
+            "btn_secondary_text": "",
+            "btn_secondary_url": ""
+          }
         }
       },
       "block_order": [
         "slide_Q4UPQq",
-        "slide_qEDXma"
+        "slide_qEDXma",
+        "slide_teiDbJ"
       ],
       "settings": {
         "bg_color": "bg-body",
@@ -65,8 +83,8 @@
         "carousel_controls": true,
         "carousel_indicators": true,
         "carousel_transition": "slide",
-        "carousel_transition_duration": 500,
-        "carousel_autoplay": 5,
+        "carousel_transition_duration": 300,
+        "carousel_autoplay": 7,
         "carousel_effect": "carousel-zoom-in",
         "media_mobile_height": 500,
         "media_desktop_height": 400,
