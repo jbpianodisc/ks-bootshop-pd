@@ -14,10 +14,10 @@
     "newsletter_fL4LWF": {
       "type": "newsletter",
       "settings": {
-        "bg_color": "bg-secondary",
-        "bg_opacity": 5,
+        "bg_color": "bg-primary",
+        "bg_opacity": 100,
         "bg_gradient": "bg-gradient",
-        "text_color": "text-body",
+        "text_color": "text-white",
         "border_top_width": 1,
         "border_bottom_width": 0,
         "border_color": "border-secondary",
