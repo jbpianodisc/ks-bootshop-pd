@@ -38,11 +38,10 @@
         },
         "bf49a5ff-d625-4485-a09c-44d883547f90": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
             "title": "",
             "title_font_size": "h6",
-            "description": "<p>{{ product.metafields.descriptors.subtitle.value }}</p>",
+            "description": "",
             "description_font_size": "",
             "product_description": false,
             "description_classes": "opacity-70",
