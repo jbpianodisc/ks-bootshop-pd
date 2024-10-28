@@ -41,7 +41,7 @@
           "settings": {
             "title": "",
             "title_font_size": "h6",
-            "description": "",
+            "description": "<p>{{ product.metafields.custom.itunes.value }}</p>",
             "description_font_size": "",
             "product_description": false,
             "description_classes": "opacity-70",
