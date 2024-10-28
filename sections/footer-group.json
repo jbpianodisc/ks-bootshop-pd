@@ -59,11 +59,11 @@
             "title": "Contact Us",
             "title_font_size": "fs-xl",
             "description": "<p><strong>Call:</strong><a href=\"tel:866-566-3472\">(866) 566-3472</a></p><p><strong>Email: </strong>sales@pianodisc.com<br/><br/>4111 N Freeway Blvd #1<br/>Sacramento, CA 95834</p>",
-            "btn_primary_text": "Browse themes",
-            "btn_primary_url": "https://www.kondasoft.com/collections/shopify-themes",
+            "btn_primary_text": "Corporate Website",
+            "btn_primary_url": "https://pianodisc.com/",
             "btn_primary_color": "btn-primary",
-            "btn_secondary_text": "Learn more",
-            "btn_secondary_url": "https://www.kondasoft.com/collections/shopify-themes",
+            "btn_secondary_text": "Product Technical Support",
+            "btn_secondary_url": "https://pianodisc.com/support",
             "btn_secondary_color": "btn-light-white"
           }
         }
