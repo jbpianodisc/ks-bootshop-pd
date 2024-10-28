@@ -18,7 +18,7 @@
         " /* Responsive adjustments */@media (min-width: 768px) {.column-1 {flex: 2; } .column-2, .column-3 {flex: 1; }}"
       ],
       "settings": {
-        "liquid": "<div class=\"contact-container\">\n        <!-- Column 1 -->\n        <div class=\"contactcolumn-1\">\n            <h1>Contact Us</h1>\n            <p>If you have any questions, need assistance, or want to learn more about our services, feel free to reach out. We're here to help!</p>\n        </div>\n        \n        <!-- Column 2 -->\n        <div class=\"contactcolumn-2\">\n            <h3>Email Us:</h3>\n            <p>Technical support: <a href=\"mailto:tech@pianodisc.com\">tech@pianodisc.com</a></p>\n            <p>Player system upgrades: <a href=\"mailto:upgrades@pianodisc.com\">upgrades@pianodisc.com</a></p>\n        </div>\n        \n        <!-- Column 3 -->\n        <div class=\"contactcolumn-3\">\n            <h3>Call us:</h3>\n            <p>US toll-free: (866) 566-3472</p>\n            <p>Or at: (916) 567-9999</p>\n            \n            <h3>Office Hours:</h3>\n            <p>Monday – Friday: 4:00am – 7:00pm PST<br>\n               Saturday: 8:00am – 4:00pm PST</p>\n        </div>\n    </div>",
+        "liquid": "<div class=\"contact-container\">\n        <!-- Column 1 -->\n        <div class=\"contactcolumn-1\">\n            <h1>Contact Us</h1>\n            <p style=\"font-size: 18px;\">If you have any questions, need assistance, or want to learn more about our services, feel free to reach out. We're here to help!</p>\n        </div>\n        \n        <!-- Column 2 -->\n        <div class=\"contactcolumn-2\">\n            <h4>Email Us:</h4>\n            <p>Technical support: <a href=\"mailto:tech@pianodisc.com\">tech@pianodisc.com</a></p>\n            <p>Player system upgrades: <a href=\"mailto:upgrades@pianodisc.com\">upgrades@pianodisc.com</a></p>\n        </div>\n        \n        <!-- Column 3 -->\n        <div class=\"contactcolumn-3\">\n            <h4>Call us:</h4>\n            <p>US toll-free: (866) 566-3472</p>\n            <p>Or at: (916) 567-9999</p>\n            \n            <h4>Office Hours:</h4>\n            <p>Monday – Friday: 4:00am – 7:00pm PST<br>\n               Saturday: 8:00am – 4:00pm PST</p>\n        </div>\n    </div>",
         "bg_color": "bg-body",
         "bg_opacity": 100,
         "bg_gradient": "",
@@ -29,7 +29,7 @@
         "border_opacity": 100,
         "container": "",
         "container_max_width": "",
-        "text_align": "text-center",
+        "text_align": "text-start",
         "header_title": "",
         "header_title_font_size": "h2",
         "header_description": "",
