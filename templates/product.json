@@ -61,6 +61,7 @@
         },
         "4566c39b-0f51-4900-b193-a0ac76bf0c8f": {
           "type": "options",
+          "disabled": true,
           "settings": {
             "options_style": "buttons",
             "color_swatches": "Color, color",
