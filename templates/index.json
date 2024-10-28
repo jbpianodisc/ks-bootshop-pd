@@ -284,6 +284,7 @@
     },
     "richtext_AtYwxr": {
       "type": "richtext",
+      "disabled": true,
       "settings": {
         "bg_color": "bg-primary",
         "bg_opacity": 100,
@@ -366,6 +367,7 @@
       "block_order": [
         "row_JkMDbM"
       ],
+      "disabled": true,
       "settings": {
         "container_max_width": ""
       }
@@ -436,6 +438,7 @@
         "item_iKKgHJ",
         "item_Je3xNm"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
@@ -555,6 +558,7 @@
         "item_kWLWrb",
         "item_dizKmG"
       ],
+      "disabled": true,
       "settings": {
         "bg_color": "bg-body",
         "bg_opacity": 100,
