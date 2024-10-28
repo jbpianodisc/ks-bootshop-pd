@@ -114,6 +114,8 @@ audio::-webkit-media-controls-play-button:hover {
                     case block.type
                       when 'title'
                         render 'product-block-title', block: block
+                 when 'price'
+                        render 'product-block-price', block: block, form: form
                      endcase
                   endfor
                 %}
@@ -143,8 +145,6 @@ audio::-webkit-media-controls-play-button:hover {
  {% liquid
                   for block in section.blocks
                     case block.type
-                      when 'price'
-                        render 'product-block-price', block: block, form: form
                       when 'options'
                         render 'product-block-options', block: block, form: form
                       when 'atc_button'
