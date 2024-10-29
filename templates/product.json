@@ -156,6 +156,7 @@
         },
         "0f571c64-329e-4ea3-9c76-ebf86266226a": {
           "type": "collapse",
+          "disabled": true,
           "settings": {
             "icon_size": 20,
             "title": "Returns & Warranty",
