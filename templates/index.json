@@ -247,8 +247,8 @@
         "slider_scrollbar": true,
         "slider_partial_slides_mobile": false,
         "slider_autoplay": 0,
-        "breakpoint_mobile": 1,
-        "breakpoint_tablet": 2,
+        "breakpoint_mobile": 2,
+        "breakpoint_tablet": 3,
         "breakpoint_desktop": 4,
         "pt": 10,
         "pb": 11
