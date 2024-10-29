@@ -119,7 +119,7 @@
         "description": "<p>View answers to some of the most common questions.</p>",
         "description_font_size": "",
         "btn_primary_text": "Read FAQs",
-        "btn_primary_url": "shopify://pages/faqs",
+        "btn_primary_url": "https://pianodisc.com/support/",
         "btn_primary_color": "btn-outline-primary",
         "btn_secondary_text": "",
         "btn_secondary_url": "",
