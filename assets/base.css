@@ -7,7 +7,7 @@
   Variables
 */
 
-
+.shopify-installments {display: none !important;}
 
 :root {
   --bs-link-color: currentColor;
