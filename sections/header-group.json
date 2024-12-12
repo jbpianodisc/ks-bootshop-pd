@@ -40,8 +40,8 @@
         "letter_spacing": 1,
         "carousel_autoplay": 7,
         "carousel_vertical": true,
-        "pt": 4,
-        "pb": 3
+        "pt": 5,
+        "pb": 6
       }
     },
     "navbar": {
