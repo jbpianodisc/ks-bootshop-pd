@@ -100,13 +100,12 @@
     "product_card_wishlist_color": "text-primary",
     "product_card_img_carousel_dark": false,
     "cart_img_border": "img-thumbnail",
-    "content_for_index": [
-
-    ]
+    "content_for_index": []
   },
   "platform_customizations": {
     "custom_css": [
-      "h2 {font-size-adjust: 0.6;}"
+      "h2 {font-size-adjust: 0.6;}",
+      ".announcement-bar .container .carousel .carousel-inner .carousel-item .description {font-size: 13px;}"
     ]
   }
 }
