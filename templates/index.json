@@ -140,7 +140,7 @@
         "collection_fVqpkB": {
           "type": "collection",
           "settings": {
-            "collection": "christmas",
+            "collection": "popular",
             "title": ""
           }
         },
@@ -229,9 +229,7 @@
         "border_color": "border-primary",
         "border_opacity": 100,
         "container_max_width": "",
-        "products": [
-
-        ],
+        "products": [],
         "collection": "featured-products",
         "limit": 8,
         "recommended_mode": true,
