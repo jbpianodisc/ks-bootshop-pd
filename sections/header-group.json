@@ -33,7 +33,7 @@
         "border_bottom_width": 0,
         "border_color": "border-body",
         "border_opacity": 100,
-        "container_max_width": "600",
+        "container_max_width": "800",
         "font_size": "fs-sm",
         "font_size_desktop": "fs-desktop-md",
         "text_transform": "",
