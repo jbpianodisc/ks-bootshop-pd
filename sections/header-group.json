@@ -17,7 +17,13 @@
         "slide_j46kwk": {
           "type": "slide",
           "settings": {
-            "announcement": "<strong>Thanksgiving Sale! 20% using code THANK24</strong>"
+            "announcement": "<strong>Welcome to the new PianoDisc Music store!</strong><a href=\"#newsletter\" title=\"#newsletter\">Click Here to Join Our Newsletter</a>"
+          }
+        },
+        "slide_fQDTxc": {
+          "type": "slide",
+          "settings": {
+            "announcement": "Announce something important here"
           }
         },
         "slide_mwF4Tk": {
@@ -29,6 +35,7 @@
       },
       "block_order": [
         "slide_j46kwk",
+        "slide_fQDTxc",
         "slide_mwF4Tk"
       ],
       "settings": {
