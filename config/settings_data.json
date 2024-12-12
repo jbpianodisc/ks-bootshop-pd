@@ -42,6 +42,7 @@
     "product_card_carousel_controls_color": "secondary",
     "product_card_carousel_transition": "slide",
     "product_card_badge_discount_type": "value",
+    "product_card_show_wishlist": false,
     "product_card_title_font_size": "fs-lg",
     "product_card_show_atc_form": true,
     "product_card_atc_btn_color": "btn-primary",
