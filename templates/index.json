@@ -154,8 +154,9 @@
         "collection_KdHXk9": {
           "type": "collection",
           "settings": {
-            "collection": "pianosync",
-            "title": ""
+            "collection": "dualsync",
+            "img": "shopify://shop_images/pd-dualsync.jpg",
+            "title": "DualSync"
           }
         },
         "collection_b7ELCB": {
